@@ -3,6 +3,7 @@
 import 'package:clock_bloc/state_management/models/alarm_model.dart';
 import 'package:clock_bloc/state_management/services/boxes.dart';
 import 'package:clock_bloc/ui/design/alarm_view.dart';
+import 'package:clock_bloc/ui/pages/clock_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:hive/hive.dart';

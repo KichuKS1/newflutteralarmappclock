@@ -10,6 +10,8 @@ import 'dart:ui' as ui;
 
 import 'package:hive_flutter/adapters.dart';
 
+import 'ui/pages/clock_page.dart';
+
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
@@ -41,7 +43,7 @@ class MyApp extends StatelessWidget {
             localeBloc: _localeBloc,
           ),
           supportedLocales: L10n.all,
-          localizationsDelegates: const [
+          localizationsDelegates: [
             AppLocalizations.delegate,
             GlobalMaterialLocalizations.delegate,
             GlobalCupertinoLocalizations.delegate,

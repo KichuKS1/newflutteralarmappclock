@@ -204,3 +204,10 @@ class ClockPage extends StatelessWidget {
     return month;
   }
 }
+
+class AppLocalizations {
+  // ignore: prefer_typing_uninitialized_variables
+  static var delegate;
+
+  static of(BuildContext context) {}
+}
