@@ -324,6 +324,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "4.0.0"
+  i18n_localizations:
+    dependency: "direct main"
+    description:
+      name: i18n_localizations
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.1.2"
   intl:
     dependency: "direct main"
     description:

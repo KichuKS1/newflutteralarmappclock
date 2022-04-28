@@ -55,3 +55,5 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class Prefix {}

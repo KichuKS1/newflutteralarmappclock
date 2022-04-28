@@ -2,7 +2,6 @@ import 'package:clock_bloc/constants/colors.dart';
 import 'package:clock_bloc/ui/design/clock_view.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class ClockPage extends StatelessWidget {
   const ClockPage({Key? key}) : super(key: key);
